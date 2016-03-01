@@ -1,0 +1,11 @@
+<% provide(:title, "Home") %>
+<div class="center hero-unit">
+  <h1>Welcome to the Chirp App</h1>
+
+  <h2>
+    This is the home page for the
+   <%= link_to "Chirp Application", users_path %>.
+  </h2>
+
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+</div>
